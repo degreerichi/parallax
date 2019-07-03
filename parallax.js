@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function(){
 					self.setBackgroundPosition(self.elems[index]);
 				}
 			}
-			this.loadParallax();
 			this.initListeners();
+			this.loadParallax();
 		},
 		initListeners: function(){
 			var _self = this;
